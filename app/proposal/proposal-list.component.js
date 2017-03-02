@@ -13,7 +13,7 @@ var ProposalListComponent = (function () {
         this.proposalOne = new proposal_1.Proposal(15, 'ABC Comapny', 'http://portfolio.rebeccabuie.com', 'Ruby on Rails', 150, 120, 15, 'rebeccabuie@gmail.com');
         this.proposalTwo = new proposal_1.Proposal(99, 'XYZ Comapny', 'http://portfolio.rebeccabuie.com', 'Ruby on Rails', 150, 120, 15, 'rebeccabuie@gmail.com');
         this.proposalThree = new proposal_1.Proposal(300, 'Some Comapny', 'http://portfolio.rebeccabuie.com', 'Ruby on Rails', 150, 120, 15, 'rebeccabuie@gmail.com');
-        this.proposal = [
+        this.proposals = [
             this.proposalOne,
             this.proposalTwo,
             this.proposalThree

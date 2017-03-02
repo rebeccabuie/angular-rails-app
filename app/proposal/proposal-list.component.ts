@@ -11,10 +11,10 @@ export class ProposalListComponent {
   proposalTwo: Proposal = new Proposal(99, 'XYZ Comapny', 'http://portfolio.rebeccabuie.com', 'Ruby on Rails', 150, 120, 15, 'rebeccabuie@gmail.com')
   proposalThree: Proposal = new Proposal(300, 'Some Comapny', 'http://portfolio.rebeccabuie.com', 'Ruby on Rails', 150, 120, 15, 'rebeccabuie@gmail.com')
 
-  proposal: Proposal[] = 
-    [
-    this.proposalOne
-    this.proposalTwo
+  proposals: Proposal[] = [
+    this.proposalOne,
+    this.proposalTwo,
     this.proposalThree
-    ]
+   
+   ]
 }
